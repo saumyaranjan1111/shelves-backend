@@ -6,8 +6,8 @@ const booksRoute = require('./routes/booksRoute.js')
 require('dotenv').config();
 
 const cors = require('cors');
-app.use(express.urlencoded({ extended : false }));
 const app = express();
+app.use(express.urlencoded({ extended : false }));
 
 const PORT = process.env.PORT || 5555
 const URI = process.env.URI
