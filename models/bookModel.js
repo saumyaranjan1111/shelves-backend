@@ -15,7 +15,7 @@ const bookSchema = mongoose.Schema(
             required: true,
         },
         read: {
-            type: String,
+            type: Boolean,
             default: false,
         },
     },
